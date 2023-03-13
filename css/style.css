@@ -1,0 +1,356 @@
+/*.............font................*/
+@font-face {
+	font-family: CodaCaption-ExtraBold;
+	src: url(../font/CodaCaption-ExtraBold.ttf);
+
+}
+*{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+		font-family: CodaCaption-ExtraBold;
+}
+
+/*..........body........*/
+body{
+	margin: 0;
+}
+.uni-padding{
+	padding: 0 7%;
+}
+/*......topbar.......*/
+#topbar{
+	background-color: #576574;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	overflow: auto;
+}
+#tollfree{
+	float: left;
+	color: #fdfdfd;
+	margin: 0;
+	margin-top: 5px;
+}
+#social-icon{
+	float: right;
+    
+}
+.fab{
+	background-color: #fdfdfd;
+	color: 576574;
+	padding: 7px;
+	border-radius: 50%;
+}
+.fa-facebook{
+	padding: 7px 10px;
+}
+.fa-whatsapp{
+	padding: 7px 9px;
+}
+
+.fa-instagram{
+	padding: 7px 9px;
+}
+/*........logo bbar...........*/
+
+#logobar img{
+	width: 200px;
+	margin: 25px 0px;
+	height: 80px;
+}
+
+/*---navbar--*/
+#navbar{
+background-color: #ee5253;
+}
+
+#navbar ul li{
+	display: inline-block;
+	padding: 18px 0px;
+	padding-right: 35px;
+
+}
+
+#navbar ul{
+	margin: 0;
+	padding: 0;
+}
+
+#navbar ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/*---------------poster-------------*/
+#poster{
+	background-image: url(../images/company-2.jpg);
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	flex-direction: column;
+}
+#poster h1{
+	font-size: 50px;
+}
+#poster p{
+	font-size: 18px;
+	text-align: center;
+}
+
+
+/*---------why us----------*/
+
+#whysection{
+	overflow: auto;
+}
+#section33{
+	width: 33.33%;
+	float: left;
+}
+
+/*-----------contect------*/
+#contact-container{
+	background-color: #ee5253;
+	color: white;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.section70{
+width: 70%;
+float: left;
+}
+
+
+
+.section30{
+width: 30%;
+float: left;
+text-align: center;
+padding-top: 70px;
+}
+
+#content-btn{
+	background-color: white;
+	color: #ee5253;
+	padding: 15px 50px;
+	border-radius: 8px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+/*...............subscribe-------------------------*/
+#subscribe-section{
+	background-color: #ee5253;
+	color: white;
+	overflow: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+.section50{
+	width: 50%;
+	float: left;
+}
+.section50 h2{
+  font-size: 30px;
+  text-align: right;
+  padding-right: 50%;
+}
+.section50 form{
+	padding-top: 25px;
+}
+.section50 input[type="text"]{
+padding: 10px 15px;
+font-size: 15px;
+color: #ee5253;
+margin-right: 20px;
+border: 0px;
+width: 45%;
+}
+
+.section50 input[type="submit"]{
+padding: 8px 35px;
+font-size: 15px;
+color: #ee5253;
+border: 0px;
+
+}
+
+/*------------ser-----------*/
+#src-img{
+	padding-left: 350px;
+}
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: lightgray; 
+	}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
+
+
+
+
+/*------------ footer ------------*/
+
+#imp-link{
+	background-color: #576574;
+	color: white;
+	overflow: auto;
+
+}
+.div33{
+	width: 33.3%;
+	float: left;
+	padding: 25px 50px;
+	box-sizing: border-box;
+}
+
+.div33 h3{
+	text-decoration: underline;
+	text-underline-offset: 10px;
+	text-decoration-thickness: 2px;
+	font-weight: normal;
+}
+#footer-menu{
+	list-style-type: none;
+	padding: 0px;
+}
+#footer-menu li{
+	padding-bottom: 10px;
+}
+#footer-menu  li a{
+	text-decoration: none;
+	color: white;
+}
+#footer-menu-container{
+	padding-left: 100px;
+}
+#copyright{
+	text-align: center;
+	background-color: #222f3e;
+	color: #cbcbcb;
+	padding: 10px;
+}
+
+/*------responsive i ped-----------------*/
+
+@media only screen and (max-width: 768px){
+
+#navbar ul li{
+   
+   padding-right: 20px;
+}
+.section70{
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+}
+/*--------responsiv mobil--------*/
+@media only screen and (max-width: 500px){
+	#logobar{
+		text-align: center;
+	}
+	#poster h1{
+		font-size: 28px;
+	}
+	.section33, .section70, .section30, .section50, .div33{
+		width: 100%;
+	}
+     .section70{
+     	text-align: center;
+     	padding-right: 0px;
+     }
+     .section30{
+     	padding-top: 20;
+     	padding-bottom: 20pxr;
+     }
+     .section50 h2{
+     	font-size: 27px;
+     	text-align: center;
+     	padding-right: 0px;
+     }
+     .div33{
+     	padding: 25px 20px;
+     	text-align: center;
+     }
+     #footer-menu-container{
+     	padding-left: 0px;
+     }
+}
+
+/*-----------mobail menu----------*/
+
+@media only screen and (max-width: 500px){
+	#navbar{
+		background-color: #ee5253;
+		position: absolute;
+		top: 0px;
+		height: 100vh;
+		width: 280px;
+		padding: 0px;
+	}
+	#navbar ul li{
+		display: block;
+		padding: 18px 0px;
+		padding-right: 35px;
+		border-bottom: 1px solid  #d8d1d1;
+		padding-left: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
